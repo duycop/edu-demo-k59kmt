@@ -12,10 +12,12 @@ các bước làm:
 3. cài đặt iis(windows có sẵn) trên máy đó
 4. cài đặt sql server
 5. cài đặt wacs tại https://www.win-acme.com/
+đăng ký domain qua duckdns
+đăng ký https qua wacs
 
 6. tạo thư mục, chứa file html
 7. cấu hình trên iis để tạo website trỏ tới thư mục ở step6 với domain phù hợp
-8. cấu hình cloudflare tunnel để trỏ domain truy cập qua đường hầm.
+8. cấu hình cloudflare tunnel để trỏ domain (xịn) truy cập qua đường hầm.
 
 9. tạo db, table gv, nhập liệu demo cho table gv.
 10. tạo project trên vs đỏ: 
