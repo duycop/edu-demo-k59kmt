@@ -1,0 +1,28 @@
+﻿body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #065f46 100%);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+    .card-hover:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 30px -10px rgba(0,0,0,0.1);
+    }
+
+.tab-btn.active {
+    background-color: #16a34a;
+    color: #ffffff;
+    border-color: #16a34a;
+}
+/* Style active cho Menu Navigation */
+.nav-link.active-nav {
+    color: #16a34a;
+    font-weight: 700;
+}
