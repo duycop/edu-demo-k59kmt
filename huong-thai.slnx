@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="huong-thai/huong-thai.csproj" Id="bb89346c-e462-4c7d-940d-3afc9081ed07" />
+  <Project Path="lib_captcha/lib_captcha.csproj" Id="15364412-1e22-4217-a724-6c5196167803" />
+  <Project Path="test_captcha/test_captcha.csproj" Id="a99690e0-1232-4f8e-8a40-863b8201fee0" />
 </Solution>

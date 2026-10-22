@@ -15,6 +15,18 @@ namespace huong_thai.admin
         const string setting_ID = "gioi-thieu";
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                string ok  = this.Session["login_ok"] as string;
+                if(ok!="ok")
+                {
+                    Response.Redirect("/admin/");
+                    Response.End(); // ko thuc hien ben duoi 
+                    return;
+                }
+            }
+            catch { }
+
             if (!IsPostBack)
             {
                 // Code to execute on initial page load

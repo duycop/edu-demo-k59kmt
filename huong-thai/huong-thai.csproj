@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\about.aspx" />
+    <Content Include="admin\index.html" />
     <Content Include="admin\pp.aspx" />
     <Content Include="api.aspx" />
     <Content Include="code.js" />
@@ -95,6 +96,12 @@
       <DependentUpon>api.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib_captcha\lib_captcha.csproj">
+      <Project>{15364412-1e22-4217-a724-6c5196167803}</Project>
+      <Name>lib_captcha</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
